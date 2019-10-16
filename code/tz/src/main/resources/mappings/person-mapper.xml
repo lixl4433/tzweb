@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.web.tz.kernel.mapper.PersonMapper">
+    <select id="find_page" resultType="com.web.tz.kernel.entity.Person">
+        SELECT * FROM person LIMIT ${begin},${page_size}
+<!--         <if test="column != null">
+            order by ${column} ${sort}
+        </if> -->
+    </select>
+        <select id="data_count" resultType="int">
+        SELECT count(*) FROM person
+    </select>
+</mapper>
