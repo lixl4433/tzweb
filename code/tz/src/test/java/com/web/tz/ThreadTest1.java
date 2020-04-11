@@ -2,7 +2,6 @@ package com.web.tz;
 
 public class ThreadTest1 implements Runnable{
 
-	@Override
 	public void run() {
 	/*	try {
 			Thread.sleep(10000);

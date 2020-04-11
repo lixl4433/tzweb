@@ -15,7 +15,7 @@ import com.web.tz.web.contorller.constants.PageView;
 
 @Controller
 @RequestMapping("/person/")
-public class TestController {
+public class PersonController {
 	@Inject
     private PersonMapper personMapper;
 	@RequestMapping("list")

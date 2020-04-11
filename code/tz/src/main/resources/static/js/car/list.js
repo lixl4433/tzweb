@@ -6,19 +6,19 @@ $(function() {
 			colkey : "id",
 			name : "id",
 		}, {
-			colkey : "xm",
-			name : "姓名",
+			colkey : "lx",
+			name : "车辆类型",
 		}, {
-			colkey : "xb",
-			name : "姓别",
+			colkey : "cph",
+			name : "车牌号",
 		}, {
-			colkey : "sfzh",
-			name : "证件号码"
+			colkey : "comment",
+			name : "备注"
 		}],
 		async : true,
 		checkValue : 'id',
 		checkbox : true,
-		jsonUrl : rootPath+'/person/page_list',
+		jsonUrl : rootPath+'/car/page_list',
 	});
 });
 

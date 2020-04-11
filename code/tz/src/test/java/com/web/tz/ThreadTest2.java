@@ -2,7 +2,6 @@ package com.web.tz;
 
 public class ThreadTest2 implements Runnable{
 
-	@Override
 	public void run() {
 		
 		Object wait_test = new Test().wait_test;
