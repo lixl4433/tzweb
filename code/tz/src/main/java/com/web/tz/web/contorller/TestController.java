@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.web.tz.kernel.entity.Person;
 import com.web.tz.kernel.mapper.PersonMapper;
-import com.web.tz.web.contorller.constants.ForwardConstants;
-import com.web.tz.web.contorller.constants.PageView;
+import com.web.tz.web.constants.ForwardConstants;
+import com.web.tz.web.constants.PageView;
 
 @Controller
 @RequestMapping("/person/")
