@@ -3,7 +3,7 @@ package com.web.tz.web.contorller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.web.tz.web.contorller.constants.ForwardConstants;
+import com.web.tz.web.constants.ForwardConstants;
 
 @Controller
 @RequestMapping("/index")

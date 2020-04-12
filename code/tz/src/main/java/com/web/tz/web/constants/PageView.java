@@ -1,4 +1,4 @@
-package com.web.tz.web.contorller.constants;
+package com.web.tz.web.constants;
 
 public class PageView {
     private Object records;

@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.web.tz.kernel.entity.Person;
 import com.web.tz.kernel.mapper.PersonMapper;
-import com.web.tz.web.constants.ForwardConstants;
-import com.web.tz.web.constants.PageView;
+import com.web.tz.web.contorller.constants.ForwardConstants;
+import com.web.tz.web.contorller.constants.PageView;
 
 @Controller
 @RequestMapping("/person/")
-public class PersonController {
+public class TestController {
 	@Inject
     private PersonMapper personMapper;
 	@RequestMapping("list")

@@ -2,7 +2,7 @@ package com.web.tz.kernel.entity;
 
 import org.springframework.stereotype.Component;
 
-import com.web.tz.web.contorller.constants.BaseEntity;
+import com.web.tz.web.constants.BaseEntity;
 
 @Component
 public class Person extends BaseEntity{

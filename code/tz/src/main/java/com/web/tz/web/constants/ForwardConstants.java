@@ -1,4 +1,4 @@
-package com.web.tz.web.contorller.constants;
+package com.web.tz.web.constants;
 
 public class ForwardConstants {
 	public static String INDEX = "/index"; 

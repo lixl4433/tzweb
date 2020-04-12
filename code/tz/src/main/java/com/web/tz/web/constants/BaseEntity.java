@@ -1,4 +1,4 @@
-package com.web.tz.web.contorller.constants;
+package com.web.tz.web.constants;
 
 import org.springframework.stereotype.Component;
 

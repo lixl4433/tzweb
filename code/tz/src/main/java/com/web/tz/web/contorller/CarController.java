@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.web.tz.kernel.entity.Car;
 import com.web.tz.kernel.mapper.CarMapper;
-import com.web.tz.web.contorller.constants.ForwardConstants;
-import com.web.tz.web.contorller.constants.PageView;
+import com.web.tz.web.constants.ForwardConstants;
+import com.web.tz.web.constants.PageView;
 
 @Controller
 @RequestMapping("/car/")
