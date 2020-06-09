@@ -8,7 +8,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
-    <fastjson.version>1.1.43</fastjson.version>
+    <fastjson.version>1.2.25.sec10</fastjson.version>
     <springboot.version>2.1.9.RELEASE</springboot.version>
     <mybatis.version>3.4.6</mybatis.version>
   </properties>
