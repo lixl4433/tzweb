@@ -1,13 +1,6 @@
 package com.java.npl.hanlp.demo;
 
-import java.util.List;
-import java.util.function.Function;
-
-import com.hankcs.hanlp.HanLP;
-import com.hankcs.hanlp.corpus.dependency.CoNll.CoNLLSentence;
 import com.hankcs.hanlp.dictionary.CoreSynonymDictionary;
-import com.hankcs.hanlp.mining.cluster.ClusterAnalyzer;
-import com.hankcs.hanlp.seg.common.Term;
 
 public class HanLPDemo {
 	public static void main(String[] args) {

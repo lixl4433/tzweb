@@ -6,4 +6,6 @@ public class ForwardConstants {
 	
 	public static String PERSON = "/person"; 
 	public static String CAR = "/car"; 
+	
+	public static String MAP = "/map"; 
 }

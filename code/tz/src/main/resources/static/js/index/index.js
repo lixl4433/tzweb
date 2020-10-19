@@ -6,4 +6,7 @@ $(function() {
 	$("#table2").click(function(){
 		$(".div1_2_2").load(rootPath+'/car/list');
 	});
+	$("#map").click(function(){
+		$(".div1_2_2").load(rootPath+'/test/map');
+	});
 });
