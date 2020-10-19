@@ -14,7 +14,7 @@ import com.web.tz.web.constants.ForwardConstants;
 import com.web.tz.web.constants.PageView;
 
 @Controller
-@RequestMapping("/person/")
+@RequestMapping("/test/")
 public class TestController {
 	@Inject
     private PersonMapper personMapper;
@@ -39,6 +39,12 @@ public class TestController {
 		pv.setPageCount(page_count);
 		pv.setRowCount(data_size);
 		return pv;
+	}
+	
+	
+	@RequestMapping("map")
+	public String MapUI() {
+		return ForwardConstants.MAP + ForwardConstants.MAP;
 	}
 	
 }
