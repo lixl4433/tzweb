@@ -9,7 +9,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
     <fastjson.version>1.1.43</fastjson.version>
-    <springboot.version>2.1.9.RELEASE</springboot.version>
+    <springboot.version>2.5.12</springboot.version>
     <mybatis.version>3.4.6</mybatis.version>
     <maven.compiler.source>8</maven.compiler.source>
 	<maven.compiler.target>8</maven.compiler.target>
